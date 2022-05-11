@@ -95,7 +95,7 @@ function animate() {
   if(keys.ArrowLeft.pressed && enemy.lastKey === 'ArrowLeft') {
     enemy.velocity.x = -5;
   } else if(keys.ArrowRight.pressed && enemy.lastKey === 'ArrowRight') {
-    enemy.velocity.x = 5;
+    enemy.velocity.x = 5; 
   }
 };
 animate();
